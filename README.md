@@ -98,7 +98,24 @@ components:
 
 ```
 ### Refer the Json in .NET Core API
-You can generate Json document from the Swagger editor and use it in the .NET core APIs for API documentation.
+You can generate Json document from the Swagger editor and use it in the .NET core APIs for API documentation as follows.
+- Add the json file under wwwroot
+- Add Swashbuckle.AspNetCore Nuget pacakge.
+- Add following code in Startup.cs 
+```C#
+ public void Configure(IApplicationBuilder app, IWebHostEnvironment env){
+// .
+// .. your code
+ 
+  app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/Swagger_Bookstore.json", "Bookstore API");
+            });
+        //    ...
+        //    ...
+    }
+````
 
 
 
