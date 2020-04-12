@@ -102,6 +102,8 @@ You can generate Json document from the Swagger editor and use it in the .NET co
 - Add the json file under wwwroot
 - Add Swashbuckle.AspNetCore Nuget pacakge.
 - Add following code in Startup.cs 
+- API documentation is generated from the json file.
+- Implement your business requirement as per the API contract defined in the swagger.
 ```C#
  public void Configure(IApplicationBuilder app, IWebHostEnvironment env){
 // .
