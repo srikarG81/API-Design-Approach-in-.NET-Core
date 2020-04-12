@@ -13,6 +13,10 @@ The API contract can act as the central draft that keeps all your team members a
 - Let us define book store API contract using Swagger Editor. You can define the endpoints, request and response objects as follows.<Enter>
 - Add detailed comments for each field in the request and response objects so that consumer of the API can understand easily.
   <Enter>
+- You can define API contract in swagger editor as follows and save it as json file so that it can be refered in .NET Core API project.
+   swagger editor: 
+![alt text](https://github.com/srikarG81/API-Design-Approach-in-.NET-Core/blob/master/Swagger%20Editor.png "API contract")
+ 
 ``` YAML
 openapi: 3.0.1
 info:
