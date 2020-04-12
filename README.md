@@ -98,7 +98,8 @@ components:
 
 ```
 ### Refer the Json in .NET Core API
-You can generate Json document from the Swagger editor and use it in the .NET core APIs as follows.
+You can generate Json document from the Swagger editor and use it in the .NET core APIs for API documentation.
+
 
 
 
