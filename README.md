@@ -1,10 +1,10 @@
 # API-Design-Approach-in .NET-Core
 
 ### Code first approach:
-In general, while designing API, we first start with analyzing business requirements followed by documenting low-level design to understand the various component interaction and implement required. When implementation is completed, API documentation is generated using Swagger [Swashbuckle] (https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio). With this approach, there is very less focus on API contract, URL, request, response and return codes.
+In general, while designing API, we first start with analyzing business requirements followed by documenting low-level design to understand the various component interaction and implement required. When implementation is completed, API documentation is generated using Swagger [Swashbuckle](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-3.1&tabs=visual-studio). With this approach, there is very less focus on API contract, URL, request, response and return codes.
 
 ### Design First:
-In this approach, we first focus on defining API contract, describing endpoints , request, response object, error codes, headers and much more using API definition editors like [swagger editor](https://editor.swagger.io/), [kong] (https://konghq.com/), [spotlight] (https://stoplight.io/design/) etc.
+In this approach, we first focus on defining API contract, describing endpoints , request, response object, error codes, headers and much more using API definition editors like [swagger editor](https://editor.swagger.io/), [kong](https://konghq.com/), [spotlight] (https://stoplight.io/design/) etc.
 <Enter>
 The tools will help you to design the API’s contract first before writing any code, share the document with Architects community in the organization for the review, developer can use the API definition document during implementing API. You can also use [swaggerhub] (https://swagger.io/tools/swaggerhub/) for review the API design.
 The API contract can act as the central draft that keeps all your team members aligned on what your API’s objectives are, and how your API’s resources are exposed.
